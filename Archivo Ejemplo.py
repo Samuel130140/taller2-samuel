@@ -23,8 +23,8 @@ import matplotlib.pyplot as plt
 
 
 x= np.arange(-0,5,0.001)
-plt.plot(x, expon.pdf(x, scale = 1/3), color = "red")
-plt.title(r'Función de densidad Exponencial $\lambda = 3$')
+plt.plot(x, expon.pdf(x, scale = 1/5), color = "red")
+plt.title(r'Función de densidad Exponencial $\lambda = 5$')
 plt.xlabel('Valores')
 plt.ylabel('Densidad')
 #plt.savefig("Lambda3.png")
