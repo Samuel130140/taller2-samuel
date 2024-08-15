@@ -2,8 +2,8 @@ import numpy as np
 
 #Seleccionar el lambda a utilizar para la distribución exponencial
 ld = 3
-n=1000
-vals = np.random.exponential(scale = 1/ld, size=n)
+n=1000/2
+vals = np.random.exponential(scale = 3/ld, size=n)
 
 import pandas as pd
 
