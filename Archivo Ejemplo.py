@@ -22,8 +22,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-x= np.arange(-0,5,0.001)
-plt.plot(x, expon.pdf(x, scale = 1/5), color = "red")
+x= np.arange(-0,10,0.001)
+plt.plot(x, expon.pdf(x, scale = 1/5), color = "blue")
 plt.title(r'Función de densidad Exponencial $\lambda = 5$')
 plt.xlabel('Valores')
 plt.ylabel('Densidad')
